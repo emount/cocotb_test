@@ -1,0 +1,1 @@
+Example file for bind mounting the foo directory

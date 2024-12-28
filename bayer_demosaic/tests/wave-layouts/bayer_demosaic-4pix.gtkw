@@ -1,0 +1,142 @@
+[*]
+[*] GTKWave Analyzer v3.3.79 (w)1999-2017 BSI
+[*] Wed Dec  6 04:45:12 2017
+[*]
+[dumpfile] "/home/simulator/bayer_demosaic/tests/bayer_demosaic.ghw"
+[dumpfile_mtime] "Wed Dec  6 04:44:45 2017"
+[dumpfile_size] 104427
+[savefile] "/home/simulator/bayer_demosaic/tests/bayer_demosaic.gtkw"
+[timestart] 0
+[size] 3706 2049
+[pos] -1 -1
+*-30.555223 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.sim_wrapper.dut.
+[sst_width] 404
+[signals_width] 523
+[sst_expanded] 1
+[sst_vpaned_height] 636
+@800200
+-Host Interface
+@28
+top.sim_wrapper.dut.host_reset
+top.sim_wrapper.dut.host_clock
+@22
+#{top.sim_wrapper.dut.host_address[7:0]} top.sim_wrapper.dut.host_address[7] top.sim_wrapper.dut.host_address[6] top.sim_wrapper.dut.host_address[5] top.sim_wrapper.dut.host_address[4] top.sim_wrapper.dut.host_address[3] top.sim_wrapper.dut.host_address[2] top.sim_wrapper.dut.host_address[1] top.sim_wrapper.dut.host_address[0]
+@28
+top.sim_wrapper.dut.host_read
+top.sim_wrapper.dut.host_readdatavalid
+@22
+#{top.sim_wrapper.dut.host_readdata[31:0]} top.sim_wrapper.dut.host_readdata[31] top.sim_wrapper.dut.host_readdata[30] top.sim_wrapper.dut.host_readdata[29] top.sim_wrapper.dut.host_readdata[28] top.sim_wrapper.dut.host_readdata[27] top.sim_wrapper.dut.host_readdata[26] top.sim_wrapper.dut.host_readdata[25] top.sim_wrapper.dut.host_readdata[24] top.sim_wrapper.dut.host_readdata[23] top.sim_wrapper.dut.host_readdata[22] top.sim_wrapper.dut.host_readdata[21] top.sim_wrapper.dut.host_readdata[20] top.sim_wrapper.dut.host_readdata[19] top.sim_wrapper.dut.host_readdata[18] top.sim_wrapper.dut.host_readdata[17] top.sim_wrapper.dut.host_readdata[16] top.sim_wrapper.dut.host_readdata[15] top.sim_wrapper.dut.host_readdata[14] top.sim_wrapper.dut.host_readdata[13] top.sim_wrapper.dut.host_readdata[12] top.sim_wrapper.dut.host_readdata[11] top.sim_wrapper.dut.host_readdata[10] top.sim_wrapper.dut.host_readdata[9] top.sim_wrapper.dut.host_readdata[8] top.sim_wrapper.dut.host_readdata[7] top.sim_wrapper.dut.host_readdata[6] top.sim_wrapper.dut.host_readdata[5] top.sim_wrapper.dut.host_readdata[4] top.sim_wrapper.dut.host_readdata[3] top.sim_wrapper.dut.host_readdata[2] top.sim_wrapper.dut.host_readdata[1] top.sim_wrapper.dut.host_readdata[0]
+@28
+top.sim_wrapper.dut.host_write
+@22
+#{top.sim_wrapper.dut.host_byteenable[3:0]} top.sim_wrapper.dut.host_byteenable[3] top.sim_wrapper.dut.host_byteenable[2] top.sim_wrapper.dut.host_byteenable[1] top.sim_wrapper.dut.host_byteenable[0]
+#{top.sim_wrapper.dut.host_writedata[31:0]} top.sim_wrapper.dut.host_writedata[31] top.sim_wrapper.dut.host_writedata[30] top.sim_wrapper.dut.host_writedata[29] top.sim_wrapper.dut.host_writedata[28] top.sim_wrapper.dut.host_writedata[27] top.sim_wrapper.dut.host_writedata[26] top.sim_wrapper.dut.host_writedata[25] top.sim_wrapper.dut.host_writedata[24] top.sim_wrapper.dut.host_writedata[23] top.sim_wrapper.dut.host_writedata[22] top.sim_wrapper.dut.host_writedata[21] top.sim_wrapper.dut.host_writedata[20] top.sim_wrapper.dut.host_writedata[19] top.sim_wrapper.dut.host_writedata[18] top.sim_wrapper.dut.host_writedata[17] top.sim_wrapper.dut.host_writedata[16] top.sim_wrapper.dut.host_writedata[15] top.sim_wrapper.dut.host_writedata[14] top.sim_wrapper.dut.host_writedata[13] top.sim_wrapper.dut.host_writedata[12] top.sim_wrapper.dut.host_writedata[11] top.sim_wrapper.dut.host_writedata[10] top.sim_wrapper.dut.host_writedata[9] top.sim_wrapper.dut.host_writedata[8] top.sim_wrapper.dut.host_writedata[7] top.sim_wrapper.dut.host_writedata[6] top.sim_wrapper.dut.host_writedata[5] top.sim_wrapper.dut.host_writedata[4] top.sim_wrapper.dut.host_writedata[3] top.sim_wrapper.dut.host_writedata[2] top.sim_wrapper.dut.host_writedata[1] top.sim_wrapper.dut.host_writedata[0]
+@28
+top.sim_wrapper.dut.host_waitrequest
+top.sim_wrapper.dut.host_enable
+top.sim_wrapper.dut.host_ack
+top.sim_wrapper.dut.host_ack_d
+top.sim_wrapper.dut.host_interrupt
+@1000200
+-Host Interface
+@800200
+-Input Stream
+@28
+top.sim_wrapper.dut.input_reset
+top.sim_wrapper.dut.input_clock
+top.sim_wrapper.dut.input_ready
+top.sim_wrapper.dut.input_valid
+top.sim_wrapper.dut.input_startofpacket
+top.sim_wrapper.dut.input_endofpacket
+@22
+#{top.sim_wrapper.dut.input_empty[1:0]} top.sim_wrapper.dut.input_empty[1] top.sim_wrapper.dut.input_empty[0]
+@c00023
+#{top.sim_wrapper.dut.input_data[63:48]} top.sim_wrapper.dut.input_data[63] top.sim_wrapper.dut.input_data[62] top.sim_wrapper.dut.input_data[61] top.sim_wrapper.dut.input_data[60] top.sim_wrapper.dut.input_data[59] top.sim_wrapper.dut.input_data[58] top.sim_wrapper.dut.input_data[57] top.sim_wrapper.dut.input_data[56] top.sim_wrapper.dut.input_data[55] top.sim_wrapper.dut.input_data[54] top.sim_wrapper.dut.input_data[53] top.sim_wrapper.dut.input_data[52] top.sim_wrapper.dut.input_data[51] top.sim_wrapper.dut.input_data[50] top.sim_wrapper.dut.input_data[49] top.sim_wrapper.dut.input_data[48]
+@29
+top.sim_wrapper.dut.input_data[63]
+top.sim_wrapper.dut.input_data[62]
+top.sim_wrapper.dut.input_data[61]
+top.sim_wrapper.dut.input_data[60]
+top.sim_wrapper.dut.input_data[59]
+top.sim_wrapper.dut.input_data[58]
+top.sim_wrapper.dut.input_data[57]
+top.sim_wrapper.dut.input_data[56]
+top.sim_wrapper.dut.input_data[55]
+top.sim_wrapper.dut.input_data[54]
+top.sim_wrapper.dut.input_data[53]
+top.sim_wrapper.dut.input_data[52]
+top.sim_wrapper.dut.input_data[51]
+top.sim_wrapper.dut.input_data[50]
+top.sim_wrapper.dut.input_data[49]
+top.sim_wrapper.dut.input_data[48]
+@1401201
+-group_end
+@c00023
+#{top.sim_wrapper.dut.input_data[47:32]} top.sim_wrapper.dut.input_data[47] top.sim_wrapper.dut.input_data[46] top.sim_wrapper.dut.input_data[45] top.sim_wrapper.dut.input_data[44] top.sim_wrapper.dut.input_data[43] top.sim_wrapper.dut.input_data[42] top.sim_wrapper.dut.input_data[41] top.sim_wrapper.dut.input_data[40] top.sim_wrapper.dut.input_data[39] top.sim_wrapper.dut.input_data[38] top.sim_wrapper.dut.input_data[37] top.sim_wrapper.dut.input_data[36] top.sim_wrapper.dut.input_data[35] top.sim_wrapper.dut.input_data[34] top.sim_wrapper.dut.input_data[33] top.sim_wrapper.dut.input_data[32]
+@29
+top.sim_wrapper.dut.input_data[47]
+top.sim_wrapper.dut.input_data[46]
+top.sim_wrapper.dut.input_data[45]
+top.sim_wrapper.dut.input_data[44]
+top.sim_wrapper.dut.input_data[43]
+top.sim_wrapper.dut.input_data[42]
+top.sim_wrapper.dut.input_data[41]
+top.sim_wrapper.dut.input_data[40]
+top.sim_wrapper.dut.input_data[39]
+top.sim_wrapper.dut.input_data[38]
+top.sim_wrapper.dut.input_data[37]
+top.sim_wrapper.dut.input_data[36]
+top.sim_wrapper.dut.input_data[35]
+top.sim_wrapper.dut.input_data[34]
+top.sim_wrapper.dut.input_data[33]
+top.sim_wrapper.dut.input_data[32]
+@1401201
+-group_end
+@c00023
+#{top.sim_wrapper.dut.input_data[31:16]} top.sim_wrapper.dut.input_data[31] top.sim_wrapper.dut.input_data[30] top.sim_wrapper.dut.input_data[29] top.sim_wrapper.dut.input_data[28] top.sim_wrapper.dut.input_data[27] top.sim_wrapper.dut.input_data[26] top.sim_wrapper.dut.input_data[25] top.sim_wrapper.dut.input_data[24] top.sim_wrapper.dut.input_data[23] top.sim_wrapper.dut.input_data[22] top.sim_wrapper.dut.input_data[21] top.sim_wrapper.dut.input_data[20] top.sim_wrapper.dut.input_data[19] top.sim_wrapper.dut.input_data[18] top.sim_wrapper.dut.input_data[17] top.sim_wrapper.dut.input_data[16]
+@29
+top.sim_wrapper.dut.input_data[31]
+top.sim_wrapper.dut.input_data[30]
+top.sim_wrapper.dut.input_data[29]
+top.sim_wrapper.dut.input_data[28]
+top.sim_wrapper.dut.input_data[27]
+top.sim_wrapper.dut.input_data[26]
+top.sim_wrapper.dut.input_data[25]
+top.sim_wrapper.dut.input_data[24]
+top.sim_wrapper.dut.input_data[23]
+top.sim_wrapper.dut.input_data[22]
+top.sim_wrapper.dut.input_data[21]
+top.sim_wrapper.dut.input_data[20]
+top.sim_wrapper.dut.input_data[19]
+top.sim_wrapper.dut.input_data[18]
+top.sim_wrapper.dut.input_data[17]
+top.sim_wrapper.dut.input_data[16]
+@1401201
+-group_end
+@c00023
+#{input_data[15:0]} top.sim_wrapper.dut.input_data[15] top.sim_wrapper.dut.input_data[14] top.sim_wrapper.dut.input_data[13] top.sim_wrapper.dut.input_data[12] top.sim_wrapper.dut.input_data[11] top.sim_wrapper.dut.input_data[10] top.sim_wrapper.dut.input_data[9] top.sim_wrapper.dut.input_data[8] top.sim_wrapper.dut.input_data[7] top.sim_wrapper.dut.input_data[6] top.sim_wrapper.dut.input_data[5] top.sim_wrapper.dut.input_data[4] top.sim_wrapper.dut.input_data[3] top.sim_wrapper.dut.input_data[2] top.sim_wrapper.dut.input_data[1] top.sim_wrapper.dut.input_data[0]
+@29
+top.sim_wrapper.dut.input_data[15]
+top.sim_wrapper.dut.input_data[14]
+top.sim_wrapper.dut.input_data[13]
+top.sim_wrapper.dut.input_data[12]
+top.sim_wrapper.dut.input_data[11]
+top.sim_wrapper.dut.input_data[10]
+top.sim_wrapper.dut.input_data[9]
+top.sim_wrapper.dut.input_data[8]
+top.sim_wrapper.dut.input_data[7]
+top.sim_wrapper.dut.input_data[6]
+top.sim_wrapper.dut.input_data[5]
+top.sim_wrapper.dut.input_data[4]
+top.sim_wrapper.dut.input_data[3]
+top.sim_wrapper.dut.input_data[2]
+top.sim_wrapper.dut.input_data[1]
+top.sim_wrapper.dut.input_data[0]
+@1401201
+-group_end
+@1000200
+-Input Stream
+[pattern_trace] 1
+[pattern_trace] 0

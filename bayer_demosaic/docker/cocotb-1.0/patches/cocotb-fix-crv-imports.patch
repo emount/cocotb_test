@@ -1,0 +1,14 @@
+--- a/cocotb/crv.py
++++ b/cocotb/crv.py
+@@ -32,9 +32,10 @@
+ """
+ 
+ import random
+-import constraint
+ import inspect
+ import itertools
+ 
++from cocotb import constraint
++
+ class Randomized(object):
+     """

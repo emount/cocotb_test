@@ -1,0 +1,27 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/emount/criticallink/ip/bayer_demosaic/altera/cores/Altera_Elastic_Fifo.qsys --synthesis=VHDL --output-directory=/home/emount/criticallink/ip/bayer_demosaic/altera/cores/Altera_Elastic_Fifo --family="Arria 10" --part=10AS016C3U19E2LG
+Progress: Loading cores/Altera_Elastic_Fifo.qsys
+Progress: Reading input file
+Progress: Adding fifo_0 [fifo 17.1]
+Progress: Parameterizing module fifo_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: Altera_Elastic_Fifo.fifo_0: Targeting device family: Arria 10.
+: Altera_Elastic_Fifo.fifo_0: Tab: 'DCFIFO 1' is unavailable while using Single-Clock FIFO.
+: Altera_Elastic_Fifo.fifo_0: Tab: 'DCFIFO 2' is unavailable while using Single-Clock FIFO.
+Info: Altera_Elastic_Fifo: "Transforming system: Altera_Elastic_Fifo"
+Info: Altera_Elastic_Fifo: Running transform generation_view_transform
+Info: Altera_Elastic_Fifo: Running transform generation_view_transform took 0.000s
+Info: fifo_0: Running transform generation_view_transform
+Info: fifo_0: Running transform generation_view_transform took 0.000s
+Info: Altera_Elastic_Fifo: Running transform merlin_avalon_transform
+Info: Altera_Elastic_Fifo: Running transform merlin_avalon_transform took 0.035s
+Info: Altera_Elastic_Fifo: "Naming system components in system: Altera_Elastic_Fifo"
+Info: Altera_Elastic_Fifo: "Processing generation queue"
+Info: Altera_Elastic_Fifo: "Generating: Altera_Elastic_Fifo"
+Info: Altera_Elastic_Fifo: "Generating: Altera_Elastic_Fifo_fifo_171_fjuzqtq"
+Info: Altera_Elastic_Fifo: Done "Altera_Elastic_Fifo" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
