@@ -20,5 +20,5 @@ done
 
 # Run the cl-imaging image with its bind mountings, setting the
 # display variable to match that of the host environment.
-SIM_IMAGE=cli-quartus-17.1
+SIM_IMAGE=cocotb-1.8
 docker run --name=${USER}-${SIM_IMAGE} --rm -it --env DISPLAY=${DISPLAY} ${MOUNT_ARGS}${SIM_IMAGE}
